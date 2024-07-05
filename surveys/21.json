@@ -1,0 +1,127 @@
+{
+  "status": "Ok",
+  "data": [
+    {
+      "id": 1,
+      "question": "Which of these brands are you familiar with?",
+      "type": "check",
+      "input": "",
+      "logic": false,
+      "options": [
+        "Ariel",
+        "Sunlight",
+        "So Klin",
+        "Good Mama",
+        "Waw",
+        "Nittol",
+        "Omo",
+        "Magik",
+        "Zip",
+        "So Easy"
+      ],
+      "dependant": {}
+    },
+    {
+      "id": 2,
+      "question": "Which one of these brands is your most preferred?",
+      "type": "radio",
+      "input": "",
+      "logic": false,
+      "options": [
+        "Ariel",
+        "Sunlight",
+        "So Klin",
+        "Good Mama",
+        "Waw",
+        "Nittol",
+        "Omo",
+        "Magik",
+        "Zip",
+        "So Easy"
+      ],
+      "dependant": {}
+    },
+    {
+      "id": 3,
+      "question": "How frequently do you purchase these products?",
+      "type": "radio",
+      "input": "",
+      "logic": false,
+      "options": [
+        "Very Often",
+        "Monthly",
+        "Quarterly",
+        "Rarely"
+      ],
+      "dependant": {}
+    },
+    {
+      "id": 4,
+      "question": "What are the most important factors that influence your purchasing decisions?",
+      "type": "radio",
+      "input": "",
+      "logic": false,
+      "options": [
+        "Price",
+        "Availability",
+        "Quality",
+        "Sensitivity"
+      ],
+      "dependant": {}
+    },
+    {
+      "id": 5,
+      "question": "What is your preferred method of shopping for these brands?",
+      "type": "radio",
+      "input": "",
+      "logic": false,
+      "options": [
+        "Supermarket",
+        "Open market",
+        "Online",
+        "Neighborhood stores"
+      ],
+      "dependant": {}
+    },
+    {
+      "id": 6,
+      "question": "How much do you typically spend on these brands?",
+      "type": "input",
+      "input": "number",
+      "logic": false,
+      "options": [],
+      "dependant": {}
+    },
+    {
+      "id": 7,
+      "question": "Have you ever made a purchase based on a social media post or advertisement?",
+      "type": "radio",
+      "input": "",
+      "logic": true,
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "dependant": {
+        "question": "If Yes, what was the product and how was your experience?",
+        "type": "input",
+        "input": "text",
+        "options": []
+      }
+    },
+    {
+      "id": 8,
+      "question": "What kind of content do you like to share or engage with on social media?",
+      "type": "radio",
+      "input": "",
+      "logic": false,
+      "options": [
+        "Skits",
+        "Educative",
+        "Motivational",
+        "Advert"
+      ],
+      "dependant": {}
+    }
+  ]
+}

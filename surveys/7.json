@@ -1,0 +1,127 @@
+{
+  "status": "Ok",
+  "data": [
+    {
+      "id": 1,
+      "question": "Which of these brands are you familiar with?",
+      "type": "check",
+      "input": "",
+      "logic": false,
+      "options": [
+        "Cadbury",
+        "Twix",
+        "Toblerone",
+        "Bounty",
+        "Eclairs",
+        "Mars",
+        "Kit Kat",
+        "m&m",
+        "Snickers",
+        "Dairy"
+      ],
+      "dependant": {}
+    },
+    {
+      "id": 2,
+      "question": "Which one of these is your most preferred brand?",
+      "type": "radio",
+      "input": "",
+      "logic": false,
+      "options": [
+        "Cadbury",
+        "Twix",
+        "Toblerone",
+        "Bounty",
+        "Eclairs",
+        "Mars",
+        "Kit Kat",
+        "m&m",
+        "Snickers",
+        "Dairy"
+      ],
+      "dependant": {}
+    },
+    {
+      "id": 3,
+      "question": "Have you ever changed brand?",
+      "type": "radio",
+      "input": "",
+      "logic": true,
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "dependant": {
+        "question": "Why did you change from the brand you were using before?",
+        "type": "radio",
+        "input": "",
+        "options": [
+        "Too expensive",
+        "Low Quality",
+        "Not Consistent",
+        "Availability"
+      ]
+      }
+    },
+    {
+      "id": 4,
+      "question": "Which of these chocolate, would you consider purchasing?",
+      "type": "radio",
+      "input": "",
+      "logic": false,
+      "options": [
+        "Cadbury",
+        "Twix",
+        "Toblerone",
+        "Bounty",
+        "Eclairs",
+        "Mars",
+        "Kit Kat",
+        "m&m",
+        "Snickers",
+        "Dairy"
+      ],
+      "dependant": {}
+    },
+    {
+      "id": 5,
+      "question": "When next you buy chocolate, which of the following are you likely to buy?",
+      "type": "radio",
+      "input": "",
+      "logic": false,
+      "options": [
+        "Cadbury",
+        "Twix",
+        "Toblerone",
+        "Bounty",
+        "Eclairs",
+        "Mars",
+        "Kit Kat",
+        "m&m",
+        "Snickers",
+        "Dairy"
+      ],
+      "dependant": {}
+    },
+    {
+      "id": 5,
+      "question": "Where do you purchase your products from?",
+      "type": "radio",
+      "input": "",
+      "logic": false,
+      "options": [
+        "Cadbury",
+        "Twix",
+        "Toblerone",
+        "Bounty",
+        "Eclairs",
+        "Mars",
+        "Kit Kat",
+        "m&m",
+        "Snickers",
+        "Dairy"
+      ],
+      "dependant": {}
+    }
+  ]
+}

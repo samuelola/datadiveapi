@@ -1,0 +1,35 @@
+{
+  "status": "Ok",
+  "data": [
+    {
+      "id": 1,
+      "question": "What brand & Product did you buy?",
+      "type": "input",
+      "input": "text",
+      "logic": false,
+      "options": [],
+      "dependant": {}
+    },
+    {
+      "id": 2,
+      "question": "Please explain your experience.",
+      "type": "input",
+      "input": "text",
+      "logic": false,
+      "options": [],
+      "dependant": {}
+    },
+    {
+      "id": 3,
+      "question": "Would you buy the brand/product again?",
+      "type": "radio",
+      "input": "",
+      "logic": false,
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "dependant": {}
+    }
+  ]
+}

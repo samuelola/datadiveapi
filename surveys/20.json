@@ -1,0 +1,126 @@
+{
+  "status": "Ok",
+  "data": [
+    {
+      "id": 1,
+      "question": "Which one of these brands are you familiar with?",
+      "type": "check",
+      "input": "",
+      "logic": false,
+      "options": [
+        "Apple",
+        "Samsung",
+        "Nokia",
+        "Infinix",
+        "Tecno",
+        "Oppo",
+        "Huawei",
+        "Gionee",
+        "Itel",
+        "Blackberry"
+      ],
+      "dependant": {}
+    },
+    {
+      "id": 2,
+      "question": "Which is your most preferred brand?",
+      "type": "radio",
+      "input": "",
+      "logic": false,
+      "options": [
+        "Apple",
+        "Samsung",
+        "Nokia",
+        "Infinix",
+        "Tecno",
+        "Oppo",
+        "Huawei",
+        "Gionee",
+        "Itel",
+        "Blackberry"
+      ],
+      "dependant": {}
+    },
+    {
+      "id": 3,
+      "question": "What features are most important to you when choosing a phone brand?",
+      "type": "radio",
+      "input": "",
+      "logic": false,
+      "options": [
+        "Camera quality",
+        "Battery life",
+        "Design",
+        "Brand reputation",
+        "Price"
+      ],
+      "dependant": {}
+    },
+    {
+      "id": 4,
+      "question": "Have you ever switched phone brands?",
+      "type": "radio",
+      "input": "",
+      "logic": true,
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "dependant": {
+        "question": "If yes, what was the reason for the switch?",
+        "type": "input",
+        "input": "text",
+        "options": []
+      }
+    },
+    {
+      "id": 5,
+      "question": "Do you follow your favorite phone brands on social media?",
+      "type": "radio",
+      "input": "",
+      "logic": true,
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "dependant": {
+        "question": "If yes, which platforms do you use?",
+        "type": "check",
+        "input": "",
+        "options": [
+        "Facebook",
+        "Instagram",
+        "LinkedIn",
+        "Snapchat",
+        "TikTok"
+        ]
+      }
+    },
+    {
+      "id": 6,
+      "question": "How often do you replace your phone?",
+      "type": "radio",
+      "input": "",
+      "logic": false,
+      "options": [
+        "Yearly",
+        "Every 3 months",
+        "Every 6 months"
+      ],
+      "dependant": {}
+    },
+    {
+        "id": 7,
+        "question": "Where do you purchase from?",
+        "type": "radio",
+        "input": "",
+        "logic": false,
+        "options": [
+            "Online",
+            "Brand's store",
+            "Open Market"
+        ],
+        "dependant": {}
+    }
+  ]
+}

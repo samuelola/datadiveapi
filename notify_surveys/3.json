@@ -1,0 +1,38 @@
+{
+  "status": "Ok",
+  "data": [
+    {
+      "id": 1,
+      "question": "Can you tell us about the experience?",
+      "type": "input",
+      "input": "text",
+      "textLength": 1028,
+      "logic": false,
+      "options": [],
+      "dependant": {}
+    },
+    {
+      "id": 2,
+      "question": "Would you buy the brand/product again?",
+      "type": "radio",
+      "input": "",
+      "textLength": 0,
+      "logic": false,
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "dependant": {}
+    },
+    {
+      "id":3,
+      "question": "Can you tell us the name of the brand and where you had the experience.",
+      "type": "input",
+      "input": "text",
+      "textLength": 1028,
+      "logic": false,
+      "options": [],
+      "dependant": {}
+    }
+  ]
+}

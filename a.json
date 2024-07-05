@@ -1,0 +1,145 @@
+{
+  "status": "Ok",
+  "data": [
+    {
+      "id": 1,
+      "question": "Which of these brands are you familiar?",
+      "type": "radio",
+      "input": "",
+      "logic": false,
+      "options": [
+        "Morning Fresh",
+        "Mama Lemon",
+        "2sure",
+        "Truejoy"
+      ],
+      "dependant": {}
+    },
+    {
+      "id": 2,
+      "question": "Which one of these brands is your most preferred?",
+      "type": "radio",
+      "input": "",
+      "logic": false,
+      "options": [
+        "Morning Fresh",
+        "Fairy",
+        "Easy Life",
+        "Avila",
+        "Kool",
+        "Truejoy"
+      ],
+      "dependant": {}
+    },
+    {
+      "id": 3,
+      "question": "Have you ever returned a product?",
+      "type": "radio",
+      "input": "",
+      "logic": true,
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "dependant": {
+        "question": "If Yes, why?",
+        "type": "input",
+        "input": "text",
+        "options": []
+      }
+    },
+    {
+      "id": 4,
+      "question": "Do you use social media platform frequently?",
+      "type": "radio",
+      "input": "",
+      "logic": true,
+      "options": [
+        "No",
+        "Yes"
+      ],
+      "dependant": {
+        "question": "Based on your selection, Select All the values to apply to your niche",
+        "type": "check",
+        "input": "",
+        "options": [
+          "Facebook",
+          "Twitter",
+          "Instagram",
+          "Snapchat",
+          "Tiktok",
+          "ClubHouse"
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "question": "Do you have a particular brand?",
+      "type": "radio",
+      "input": "",
+      "logic": true,
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "dependant": {
+        "question": "What makes you stick to a particular brand?",
+        "type": "radio",
+        "input": "",
+        "options": [
+          "Consistent Price",
+         "Quality",
+        "Accesibility"
+        ]
+      }
+    },
+    {
+      "id": 6,
+      "question": "How much do you typically spend on these brands",
+      "type": "input",
+      "input": "number",
+      "logic": false,
+      "options": [],
+      "dependant": {}
+    },
+    {
+      "id": 7,
+      "question": "What motivates you to make a purchase?",
+      "type": "radio",
+      "input": "",
+      "logic": false,
+      "options": [
+        "Price",
+        "Availability",
+        "Quality",
+        "Sensitivity"
+      ],
+      "dependant": {}
+    },
+    {
+      "id": 8,
+      "question": "How do you research products before making a purchase?",
+      "type": "radio",
+      "input": "",
+      "logic": false,
+      "options": [
+        "Search online",
+        "Get reviews",
+        "Advert"
+      ],
+      "dependant": {}
+    },
+    {
+      "id": 9,
+      "question": "Have you ever made a purchase based on a social media post or advertisement?",
+      "type": "radio",
+      "input": "",
+      "logic": false,
+      "options": [
+        "Yes, I Have",
+        "No, I Have Not"
+      ],
+      "dependant": {}
+    }
+  ]
+}

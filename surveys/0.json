@@ -1,0 +1,65 @@
+{
+  "status": "Ok",
+  "data": [
+    {
+      "id": 1,
+      "question": "Which Streaming Platform are you familiar with?",
+      "type": "check",
+      "input": "",
+      "logic": false,
+      "options": [
+        "Gotv",
+        "Dstv",
+        "Netflix",
+        "Prime Video",
+        "Amazon",
+        "Showmax",
+        "Startimes",
+        "Iroko Tv"
+      ],
+      "dependant": {}
+    },
+    {
+      "id": 2,
+      "question": "Which is your favorite streaming platform? ",
+      "type": "radio",
+      "input": "",
+      "logic": false,
+      "options": [
+        "Gotv",
+        "Dstv",
+        "Netflix",
+        "Prime Video",
+        "Amazon",
+        "Showmax",
+        "Startimes",
+        "Iroko Tv"
+      ],
+      "dependant": {}
+    },
+    {
+      "id": 3,
+      "question": "On a scale of 1-10, how would you rate the picture and sound quality of our TV service?",
+      "type": "input",
+      "input": "number",
+      "logic": false,
+      "options": [],
+      "dependant": {}
+    },
+    {
+      "id": 4,
+      "question": "What type of content do you typically watch on streaming platforms?",
+      "type": "radio",
+      "input": "",
+      "logic": false,
+      "options": [
+        "Movies",
+        "Tv Shows",
+        "Documentaries",
+        "Sensitivity",
+        "Live events"
+      ],
+      "dependant": {}
+    }
+  ]
+}

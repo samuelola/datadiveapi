@@ -1,0 +1,115 @@
+{
+  "status": "Ok",
+  "data": [
+    {
+      "id": 1,
+      "question": "Which Streaming Platform are you familiar with?",
+      "type": "check",
+      "input": "",
+      "logic": false,
+      "options": [
+        "Gotv",
+        "Dstv",
+        "Netflix",
+        "Prime Video",
+        "Amazon",
+        "Showmax",
+        "Startimes",
+        "Iroko Tv"
+      ],
+      "dependant": {}
+    },
+    {
+      "id": 2,
+      "question": "Which is your favorite streaming platform? ",
+      "type": "radio",
+      "input": "",
+      "logic": false,
+      "options": [
+        "Gotv",
+        "Dstv",
+        "Netflix",
+        "Prime Video",
+        "Amazon",
+        "Showmax",
+        "Startimes",
+        "Iroko Tv"
+      ],
+      "dependant": {}
+    },
+    {
+      "id": 3,
+      "question": "Why?",
+      "type": "radio",
+      "input": "",
+      "logic": false,
+      "options": [
+        "Good Content",
+        "Good Visuals",
+        "Affordable"
+      ],
+      "dependant": {}
+    },
+    {
+      "id": 4,
+      "question": "What type of content do you typically watch on streaming platforms?",
+      "type": "radio",
+      "input": "",
+      "logic": false,
+      "options": [
+        "Movies",
+        "Tv Shows",
+        "Documentaries",
+        "Sensitivity",
+        "Live events"
+      ],
+      "dependant": {}
+    },
+    {
+      "id": 5,
+      "question": "How likely are you to recommend your current streaming platform(s) to a friend or family member?",
+      "type": "radio",
+      "input": "",
+      "logic": false,
+      "options": [
+        "Very likely",
+        "Not likely"
+      ],
+      "dependant": {}
+    },
+    {
+      "id": 6,
+      "question": "On a scale of 1-10, how would you rate the picture and sound quality of our TV service?",
+      "type": "input",
+      "input": "number",
+      "logic": false,
+      "options": [],
+      "dependant": {}
+    },
+    {
+      "id": 7,
+      "question": "How satisfied are you with the pricing of your current TV service?",
+      "type": "radio",
+      "input": "",
+      "logic": false,
+      "options": [
+        "Very Satisfied",
+        "Not Satisfied"
+      ],
+      "dependant": {}
+    },
+    {
+      "id": 8,
+      "question": "How important are recommendations and personalized content to you when using a streaming platform?",
+      "type": "radio",
+      "input": "",
+      "logic": false,
+      "options": [
+        "Very Important",
+        "Not Important",
+        "Optional"
+      ],
+      "dependant": {}
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "status": "Ok",
+  "data": [
+    {
+      "id": 1,
+      "question": "If you have an issue with your favorite brand or service provider, what is the first thing you would want to do?",
+      "type": "input",
+      "input": "text",
+      "textLength": 1028,
+      "logic": false,
+      "options": [],
+      "dependant": {}
+    },
+    {
+      "id": 2,
+      "question": "Will you like to communicate over phone (text) or talk to aperson?",
+      "type": "radio",
+      "input": "",
+      "textLength": 0,
+      "logic": false,
+      "options": [
+        "Phone",
+        "Talk To Person"
+      ],
+      "dependant": {}
+    },
+    {
+      "id": 3,
+      "question": "How would you want the issue to be resolved?",
+      "type": "radio",
+      "input": "",
+      "textLength": 0,
+      "logic": false,
+      "options": [
+        "Fixing",
+        "Replacing"
+      ],
+      "dependant": {}
+    }
+  ]
+}

@@ -1,0 +1,208 @@
+{
+  "status": "Ok",
+  "data": [
+    {
+      "id": 1,
+      "question": "Which of these network providers do you use?",
+      "type": "check",
+      "input": "",
+      "logic": false,
+      "options": [
+        "MTN",
+        "Airtel",
+        "9mobile",
+        "Glo",
+        "Others"
+      ],
+      "dependant": {}
+    },
+    {
+      "id": 2,
+      "question": "Which one of these network providers is your most preferred?",
+      "type": "radio",
+      "input": "",
+      "logic": false,
+      "options": [
+        "MTN",
+        "Airtel",
+        "9mobile",
+        "Glo"
+      ],
+      "dependant": {}
+    },
+    {
+      "id": 3,
+      "question": "How satisfied are you with the customer service provided by your network provider?",
+      "type": "radio",
+      "input": "",
+      "logic": false,
+      "options": [
+        "Very Satisfied",
+        "Not Really Satisfied",
+        "Poor Service"
+      ],
+      "dependant": {}
+    },
+    {
+      "id": 4,
+      "question": "How often do you experience network connectivity issues with your telecom provider?",
+      "type": "radio",
+      "input": "",
+      "logic": false,
+      "options": [
+        "Very often",
+        "Not all the time",
+        "Sometimes"
+      ],
+      "dependant": {}
+    },
+    {
+      "id": 5,
+      "question": "Which social media platform do you use the most?",
+      "type": "radio",
+      "input": "",
+      "logic": false,
+      "options": [
+        "Facebook",
+        "Instagram",
+        "Whatsapp",
+        "LinkedIn",
+        "Snapchat",
+        "Tiktok",
+        "Others"
+      ],
+      "dependant": {}
+    },
+    {
+      "id": 6,
+      "question": "How often do you use your mobile phone for social media activities?",
+      "type": "radio",
+      "input": "",
+      "logic": false,
+      "options": [
+        "Very Often",
+        "Only when I feel like",
+        "Only For work"
+      ],
+      "dependant": {}
+    },
+    {
+      "id": 7,
+      "question": "What do you think about the pricing plans and packages offered by your network provider?",
+      "type": "radio",
+      "input": "",
+      "logic": false,
+      "options": [
+        "Affordable",
+        "Too Expensive",
+        "Not bad but it can be adjusted"
+      ],
+      "dependant": {}
+    },
+    {
+      "id": 8,
+      "question": "How likely are you to recommend your network provider to friends or family?",
+      "type": "radio",
+      "input": "",
+      "logic": false,
+      "options": [
+        "Likely",
+        "Very Likely",
+        "Not Likely"
+      ],
+      "dependant": {}
+    },
+    {
+      "id": 9,
+      "question": "How often do you experience slow internet speeds with your network provider?",
+      "type": "radio",
+      "input": "",
+      "logic": false,
+      "options": [
+        "Very Often",
+        "Not Often",
+        "Sometimes",
+        "Not at all"
+      ],
+      "dependant": {}
+    },
+    {
+        "id": 10,
+        "question": "How important is having access to high-speed internet to you for personal or work-related activities?",
+        "type": "radio",
+        "input": "",
+        "logic": false,
+        "options": [
+            "Very Important",
+            "Not so Important",
+            "I can do without it"
+        ],
+        "dependant": {}
+    },
+    {
+        "id": 11,
+        "question": "Do you use social media or messaging apps to communicate with friends and family?",
+        "type": "radio",
+        "input": "",
+        "logic": false,
+        "options": [
+            "Frequently",
+            "Sometimes",
+            "Never"
+        ],
+        "dependant": {}
+    },
+    {
+        "id": 12,
+        "question": "Do you exceed your monthly data usage allowance?",
+        "type": "radio",
+        "input": "",
+        "logic": false,
+        "options": [
+            "Yes",
+            "No"
+        ],
+        "dependant": {}
+    },
+    {
+        "id": 13,
+        "question": "How often do you subscribe for internet?",
+        "type": "radio",
+        "input": "",
+        "logic": false,
+        "options": [
+            "Monthly",
+            "Weekly",
+            "Daily",
+            "Whenever I'm short of data"
+        ],
+        "dependant": {}
+    },
+    {
+        "id": 14,
+        "question": "How often do you subscribe for airtime?",
+        "type": "radio",
+        "input": "",
+        "logic": false,
+        "options": [
+            "Monthly",
+            "Weekly",
+            "Daily"
+        ],
+        "dependant": {}
+    },
+    {
+        "id": 15,
+        "question": "How do you like to subscribe for your packages (data, airtime)",
+        "type": "radio",
+        "input": "",
+        "logic": false,
+        "options": [
+            "Online banking",
+            "Vendors",
+            "Third Party Apps like Jumia"
+        ],
+        "dependant": {}
+    }
+  ]
+}
